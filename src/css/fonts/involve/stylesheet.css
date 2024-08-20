@@ -1,0 +1,125 @@
+@font-face {
+    src: url("Involve-Regular.otf");
+    font-family: "involve";
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("Involve-Oblique.otf");
+    font-family: "involve";
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    src: url("Involve-Regular.otf");
+    font-family: "involve";
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("Involve-Oblique.otf");
+    font-family: "involve";
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    src: url("Involve-Regular.otf");
+    font-family: "involve";
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("Involve-Oblique.otf");
+    font-family: "involve";
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    src: url("Involve-Regular.otf");
+    font-family: "involve";
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("Involve-Oblique.otf");
+    font-family: "involve";
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    src: url("Involve-Medium.otf");
+    font-family: "involve";
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("Involve-MediumOblique.otf");
+    font-family: "involve";
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    src: url("Involve-SemiBold.otf");
+    font-family: "involve";
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("Involve-SemiBoldOblique.otf");
+    font-family: "involve";
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    src: url("Involve-Bold.otf");
+    font-family: "involve";
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("Involve-BoldOblique.otf");
+    font-family: "involve";
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    src: url("Involve-Bold.otf");
+    font-family: "involve";
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("Involve-BoldOblique.otf");
+    font-family: "involve";
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    src: url("Involve-Bold.otf");
+    font-family: "involve";
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("Involve-BoldOblique.otf");
+    font-family: "involve";
+    font-weight: 900;
+    font-style: italic;
+}

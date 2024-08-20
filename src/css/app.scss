@@ -1,0 +1,14 @@
+// app global css in SCSS form
+
+.c-desktop {
+ @media (max-width: 1199px) {
+  display: none;
+ }
+}
+
+.c-mobile {
+  @media (min-width: 1199px) {
+   display: none;
+  }
+ }
+

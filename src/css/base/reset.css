@@ -1,0 +1,81 @@
+/* stylelint-disable selector-max-type, selector-max-attribute, selector-no-qualifying-type */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+fieldset,
+body,
+button,
+ul,
+ol {
+  margin: 0;
+}
+
+fieldset,
+button,
+legend,
+ul,
+ol {
+  padding: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+button {
+  width: auto;
+  /*border: none;*/
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  font-weight: inherit;
+  background-color: transparent;
+  overflow: visible;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input[type='number'] {
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+select {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+b {
+    @apply font-semibold
+}
+/* stylelint-enable selector-max-type, selector-max-attribute, selector-no-qualifying-type */

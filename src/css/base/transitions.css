@@ -1,0 +1,10 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition-property: opacity;
+  transition-duration: var(--t);
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}

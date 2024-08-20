@@ -1,0 +1,73 @@
+/* stylelint-disable selector-max-type */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  min-height: 100%;
+  font-family: "Inter", sans-serif; /* remove after tailwind finish*/
+  font-size: 16px;
+  line-height: var(--lh-md);
+}
+
+body {
+  width: 100%;
+  min-width: 320px;
+  color: var(--c-gray-77);
+  background-color: var(--c-gray-10);
+	font-family: "Inter", sans-serif;
+}
+
+a {
+  transition-property: color;
+  transition-duration: var(--t);
+}
+
+h1 {
+  font-size: var(--fz-h1);
+  line-height: var(--lh-sm);
+  /*text-align: center;*/
+  font-weight: 700;
+
+  /*@media (--desktop) {*/
+  /*  text-align: left;*/
+  /*}*/
+}
+
+h2 {
+  font-size: var(--fz-h2);
+  line-height: var(--lh-sm);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: var(--fz-h3);
+  line-height: var(--lh-sm);
+  font-weight: 600;
+}
+
+/* stylelint-enable */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border-width: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+  :root {
+      --fz-h1: 26px;
+      --fz-h2: 22px;
+      --fz-h3: 18px;
+      --fz-avatar: 20px;
+  }
+}
